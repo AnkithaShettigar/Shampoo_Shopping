@@ -1,0 +1,127 @@
+.product-item {
+  width: 300px;
+  height: 410px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product-img {
+  width: 140px;
+  height: 180px;
+  margin-left: 50px;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+
+  padding: 30px 0 30px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product-rating {
+  background-color: rgb(3, 95, 39);
+  border-radius: 5px;
+  width: 30px;
+  padding: 2px 8px;
+}
+.product-rate {
+  margin-right: 3px;
+}
+.product-icon {
+  color: #c9cfcb;
+  font-size: 14px;
+}
+.product-price {
+  font-weight: 700;
+}
+.product-percentage {
+  color: green;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.product-total {
+  color: gray;
+  text-decoration: line-through;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.product-desc {
+  font-size: 13px;
+}
+
+.product-item:hover .product-name,
+.product-item:hover .product-desc {
+  color: rgb(71, 71, 228);
+}
+.product-review {
+  width: 70px;
+  padding: 3px 5px;
+  font-weight: 600;
+  background-color: orange;
+  border-radius: 10px;
+}
+.main-container {
+  display: flex;
+}
+.product-offer {
+  width: 70%;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.offer2 {
+  height: 190px;
+  width: 299px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-image: url('../Images/offer7.jpg');
+}
+.offer1 {
+  height: 190px;
+  width: 299px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-image: url('../Images/offer6.jpg');
+}
+
+.display-images {
+  margin-top: 700px;
+  width: 301px;
+  height: 300px;
+}
+
+.addcart-btn {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  background-color: rgb(70, 96, 182);
+  margin-left: 170px;
+  margin-top: -50px;
+  position: absolute;
+  cursor: pointer;
+}
+.btn-remove {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 10px;
+  background-color: rgb(204, 126, 8);
+
+  cursor: pointer;
+}
+.addcart-btn:hover {
+  background-color: rgb(156, 21, 21);
+}
+.product-save {
+  color: grey;
+  font-size: 14px;
+}
